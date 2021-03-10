@@ -1,0 +1,9 @@
+nslookup 10.51.1.81
+Server:		10.51.2.22
+Address:	10.51.2.22#53
+
+Non-authoritative answer:
+81.1.51.10.in-addr.arpa	name = ldap-proxy.42.fr.
+
+Authoritative answers can be found from:
+1.51.10.IN-ADDR.ARPA	nameserver = .

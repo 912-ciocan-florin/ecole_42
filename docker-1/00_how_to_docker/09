@@ -1,0 +1,4 @@
+app-get update
+app-get upgrade
+app-get install gcc
+app-get install git
