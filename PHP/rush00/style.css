@@ -1,0 +1,203 @@
+body{
+  background-image: url("/img/background.jpg");
+  background-color: #e2e2e2;
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a.nav:hover {
+    background-color: #008000;
+}
+
+.product-container {
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.25rem 0;
+}
+
+.product {
+    position: relative;
+    width: 400px;
+    margin: 1.25rem;
+    text-shadow: none;
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 0px rgba(39,49,65,0.1);
+}
+
+.product {
+    background: #BEBEBE;
+}
+
+.prod-img{
+  width: 400px;
+  height: auto;
+  top: 0
+}
+.prod-pret{
+  text-align: center;
+  font-weight: bold;
+}
+a.prod-nume:link{
+  color: #444;
+}
+a.prod-nume:visited{
+  color: #444;
+}
+
+.addbasket{
+  text-align: center;
+  color: #444;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #d9d9d9;
+}
+tr:nth-child(odd){
+    background-color: #e6e6e6;
+}
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #4CAF50}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+h2{
+  text-align: center;
+  color: #444;
+}
+
+div{
+  display: block;
+}
+form.login {
+    border: 0px solid #f1f1f1;
+    text-align: center;
+}
+form.register{
+  border: 0px solid #f1f1f1;
+  text-align: center;
+}
+/* Full-width inputs */
+input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    position: relative;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+/* The "Forgot password" text */
+span.psw {
+   float: right;
+   padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+   span.psw {
+       display: block;
+       float: none;
+   }
+   .cancelbtn {
+       width: 100%;
+   }
+}

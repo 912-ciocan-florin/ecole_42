@@ -1,0 +1,139 @@
+﻿body
+{
+	background-color: #505050;
+}
+
+#topbox{
+    background: #919191;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    margin-top: 2%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #000000;
+}
+
+#bottombox{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#loupe_image{
+    position: absolute;
+	height: 21%;
+    width: 20%;
+	margin-top:1%;
+    margin-right: 15%;
+    margin-left: 32%;
+}
+
+.closegif{
+    position: relative;
+    height: 12%;
+    width: 1.5%;
+    float: bottom;
+    left: 57%;
+    top: 4%;
+}
+
+.reloadimg{
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    height: 12%;
+    width: 1.5%;
+    float: right;
+}
+
+.centerimg
+{
+    width: 50%;
+    height: 16%;
+    margin-left: 23%;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+#brick_right
+{
+    position: relative;
+    width: 90%;
+    height: 18.5%;
+    left: -17.5%;
+    background-image: url("./resources/brick.jpg");
+    background-repeat: repeat;
+}
+#oeilborder
+{
+	border: 5px solid red;
+	border-radius: 5px;
+}
+#day_of_the_42_image
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 85%;
+    width: 40%;
+}
+
+.sidebox_left{
+	background: #919191;
+    width: 10%;
+    height: 50%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 10px 15px #000000;
+    border-radius: 10px;
+}
+
+#clusterbox
+{
+	background: #919191;
+	width: 71.5%;
+	height: 70%;
+    border-radius: 10px;
+    padding: 0.1%;
+    box-shadow: 10px 10px 15px #000000;
+    float: left;
+}
+
+#cluster_image
+{
+	margin: 9px;
+	height: 96%;
+    width: 98%;
+}
+
+.sidebox_right 
+{
+    background: #919191;
+    width: 10%;
+    height: 50%;
+    float: left;
+    box-shadow: 10px 10px 15px #000000;
+    border-radius: 10px;
+}
+
+.book_right {
+    height: 25%;
+}
+
+#green_thing {
+    position: absolute;
+    background: lightgreen;
+    width: 33%;
+    height: 15%;
+    box-shadow: 10px 10px 15px #000000;
+    border-radius: 10px;
+    bottom: 2%;
+    left: 2%;
+}
+
+#green_content {
+    position: relative;
+    top: -13%;
+    left: 2%;
+}

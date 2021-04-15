@@ -1,0 +1,1 @@
+SELECT titre, resum FROM film ORDER BY id_film ASC;

@@ -1,0 +1,1 @@
+CREATE TABLE ft_table ( id INT(6) AUTO_INCREMENT NOT NULL PRIMARY KEY, login VARCHAR(11) NOT NULL DEFAULT 'toto', groupe ENUM('staff', 'student', 'other') NOT NULL, date_de_creation date NOT NULL )
